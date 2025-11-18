@@ -57,12 +57,32 @@ scanf("%f", &pib2);
 printf("Número de Pontos Turísticos: ");
 scanf("%d", &pontosTuristicos2);
 
-  // Área para definição das variáveis para armazenar as propriedades das cidades
- 
+// Exibindo dados da Carta 1
+printf("\nInsira os dados da Carta 2:\n");
+printf("Estado (A-H): ");
+scanf(" %c", &estado2);
+printf("Código da Carta (ex: B02): ");
+scanf("%s", codigo2);
+printf("Nome da Cidade: ");
+scanf(" %[^\n]", nomeCidade2); // Lê string com espaços
+printf("População: ");
+scanf("%d", &populacao2);
+printf("Área (em km²): ");
+scanf("%f", &area2);
+printf("PIB (em bilhões de reais): ");
+scanf("%f", &pib2);
+printf("Número de Pontos Turísticos: ");
+scanf("%d", &pontosTuristicos2);
 
-  // Área para entrada de dados
-
-  // Área para exibição dos dados da cidade
+// Exibindo dados da carta 2
+printf("\nCarta 2:\n");
+printf("Estado: %c\n", estado2);
+printf("Código: %s\n", codigo2);
+printf("Nome da Cidade: %s\n", nomeCidade2);
+printf("População: %d\n", populacao2);
+printf("Área: %.2f km²\n", area2);
+printf("PIB: %.2f bilhões de reais\n", pib2);
+printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
 return 0;
 } 
